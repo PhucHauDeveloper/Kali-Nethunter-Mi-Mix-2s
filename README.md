@@ -16,19 +16,21 @@ Once you accept the possible risks to your data and are using the correct versio
 4. **Flash the custom kernel:** After rebooting into recovery, proceed to flash the custom kernel.
 5. **Boot into the system:** Once flashing is done, reboot into the system and wait for the process to complete.
 
-##Note:
+**Note:**
 If you’re using your device as a dedicated network testing tool and don't need Android, and your screen is still original (not replaced), I can show you how to run NetHunter Pro.
 
 To get started, download the necessary files and follow these steps:
 
 Boot your device into fastboot mode.
+
 Run the following commands:
-'''
+  ```
 fastboot flash userdata nethunterpro-20240822-sdm845-phosh.rootfs.img
 fastboot flash boot nethunterpro-20240822-sdm845-phosh.boot-polaris.img
 fastboot erase dtbo
-'''
+  ```
 After flashing, reboot the device. The default password is 1234.
+
 I will provide additional instructions for dual booting with Android, Windows, and other configurations once I get an original screen for my device.
 
 Let me know if you need further details or clarifications!
