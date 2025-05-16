@@ -17,16 +17,16 @@ Once you accept the possible risks to your data and are using the correct versio
 5. **Boot into the system:** Once flashing is done, reboot into the system and wait for the process to complete.
 
 **Note:**
-If you’re using your device as a dedicated network testing tool and don't need Android, and your screen is still original (not replaced), I can show you how to run NetHunter Pro.
+[UNTEST]If you’re using your device as a dedicated network testing tool and don't need Android, and your screen is still original (not replaced), I can show you how to run NetHunter Pro.
 
-To get started, download the necessary files and follow these steps:
+To get started, [download](https://github.com/Shubhamvis98/kali-pinephone/releases/tag/SDM845-20250503) the necessary files and follow these steps:
 
 Boot your device into fastboot mode.
 
 Run the following commands:
   ```
-fastboot flash userdata nethunterpro-20240822-sdm845-phosh.rootfs.img
-fastboot flash boot nethunterpro-20240822-sdm845-phosh.boot-polaris.img
+fastboot flash userdata kali_phosh_sdm845_20250503.img
+fastboot flash boot boot_polaris_20250503.img 
 fastboot erase dtbo
   ```
 After flashing, reboot the device. The default password is 1234.
